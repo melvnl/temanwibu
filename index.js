@@ -26,8 +26,9 @@ const getTitle = async () => {
       const title = manga.querySelector(".item-title").querySelector(".a-h").innerText;
       const chapter = manga.querySelector(".item-chapter").querySelector(".text-nowrap").innerText;
       const date = manga.querySelector(".item-chapter").getElementsByTagName('i')[0].innerText;
+      const url = manga.querySelector(".item-chapter").getElementsByTagName("a")[0].getAttribute("href");
 
-      return { title, chapter, date };
+      return { title, chapter, date, url };
     });
   });
 
@@ -39,7 +40,8 @@ const getTitle = async () => {
       {
         title: desiredManga.title,
         chapter: desiredManga.chapter,
-        date: desiredManga.date
+        date: desiredManga.date,
+        url: desiredManga.url
       });
   }
 
