@@ -1,0 +1,1 @@
+export const desiredMangaTitleList = ["Jujutsu Kaisen", "Lookism", "How To Fight", "Kengan Omega", "Director Kim", "Swordmaster’S Youngest Son", "Overgeared", "Reformation Of The Deadbeat Noble", "Kill The Hero", "Damn Reincarnation", "Ranker's Return (Remake)", "Sss-Class Gacha Hunter"]
