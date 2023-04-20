@@ -5,7 +5,7 @@ import { config } from "dotenv";
 config();
 // NOTE : https://crontab.guru/#0_21_*_*_*
 // NOTE TIMEZONE : https://raw.githubusercontent.com/node-cron/tz-offset/master/generated/offsets.json
-const job = nodeCron.schedule("0 21 * * *", getTitle,
+const job = nodeCron.schedule(process.env.CRON, getTitle,
   {
     scheduled: true,
     timezone: "Asia/Jakarta"
