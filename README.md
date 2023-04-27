@@ -6,6 +6,8 @@ Temanwibu is a Line Bot that fetches information from the https://manganato.com 
 
 The purpose of the bot is to provide users with the latest and trending manga updates from Manganato, which can be accessed via Line messaging through a user-friendly interface. The bot extracts relevant data, such as new chapter releases, and updates the information to a certain LINE friend group through push message API.
 
+![Example](/example.jpg)
+
 ## Features
 
 - Scraps data from https://manganato.com homepage every 3 hours using Puppeteer.
